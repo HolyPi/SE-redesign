@@ -1,0 +1,39 @@
+  
+* {
+    font-size: 16px;
+    font-family: 'Exo 2', sans-serif;
+    list-style: none;
+    text-decoration: none;
+
+
+    
+} 
+
+
+
+nav {
+    background-color: white;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    border-bottom: 10px solid #E20B17;
+
+}
+
+.nav-links {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    grid-gap: 80px;
+    text-align: center;
+    width: 95vw;
+    justify-content: center;
+   
+
+}
+
+nav > ul li a { 
+    color: #484848;
+    font-weight: bold;
+}
