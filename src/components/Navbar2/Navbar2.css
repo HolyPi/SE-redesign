@@ -1,0 +1,39 @@
+  
+* {
+    font-size: 16px;
+    font-family: 'Exo 2', sans-serif;
+    list-style: none;
+    text-decoration: none;
+
+
+    
+} 
+
+/* body {
+    background-color: grey;
+} */
+
+.nav {
+    background-color: white;
+    padding: 5px 0px 0px 0px;
+    height: 60px;
+    display: flex;
+    border-bottom: 1px solid #DADADA;
+}
+
+.nav-links2 {
+    display: grid;
+    grid-template-columns: repeat(5, auto);
+    grid-gap: 50px;
+    width: 100vw;
+    justify-content: end;
+
+
+}
+
+.nav > ul li a { 
+    color: #999999;
+    font-size: 15px;
+    font-weight: normal;
+    font: 400 13.3333px Arial;
+}
