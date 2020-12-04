@@ -13,6 +13,7 @@ function App() {
     <div className="App">
       <Navbar2 />
       <Navbar />
+      <Header/>
 
     </div>
     </Router>

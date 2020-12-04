@@ -18,9 +18,18 @@ nav {
     justify-content: center;
     align-items: center;
     font-size: 1.2rem;
-    border-bottom: 10px solid #E20B17;
+    position: sticky;
+    /* border-bottom: 10px solid #E20B17; */
+    /* Either keep it as a border, or make it a border that appears on hover
+    under items*/
 
 }
+
+ul li a:hover {
+    border-bottom: 5px red solid;
+    transition: all 100ms ease-in-out;
+}
+
 
 .nav-links {
     display: grid;
@@ -29,6 +38,7 @@ nav {
     text-align: center;
     width: 95vw;
     justify-content: center;
+    
    
 
 }
@@ -36,4 +46,6 @@ nav {
 nav > ul li a { 
     color: #484848;
     font-weight: bold;
+    padding-bottom: 10px;
+    transition: all 400ms ease-in-out;
 }
