@@ -8,21 +8,52 @@
     display: block;
     justify-content: center;
     align-items: center;
+    padding-top: 100px;
     
+}
+
+.hl-container h3 {
+    font-size: 40px;
+    font-family: inherit;
+    font-weight: lighter;
 }
 
 .hlheader {
     width: 80vw;
     height: 460px;
-    background-color: black;
+    background-color: white;
     margin: auto;
-    top: 0;
+    
+    
 }
 
-.hlheader > img {
-    width: inherit;
-    height: inherit
+
+.hlheader .hlg {
+    height: 650px;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 10px rgba(0,0,0,0.9);
+    background-image: url('../../static/images/Edit.png');
+    background-color: white;
+    background-repeat: no-repeat;
+    background-size: 100% 700px;
+  
 }
+
+.hlheader {
+    filter: contrast(110%);
+}
+
+.hlheader .logo {
+    position: absolute;
+    margin: auto;
+    right: 0px;
+    padding-top: 200px;
+    display: block;
+    width: 60%;
+
+}
+   
 
 .hlheaderobj {
     margin-top: 0;
@@ -31,6 +62,7 @@
     margin-right: auto;
     
 }
+
 
 /* .hlheaderbg img {
     width: 800px;
