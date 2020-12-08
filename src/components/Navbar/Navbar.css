@@ -12,13 +12,15 @@
 
 
 nav {
-    background-color: white;
+    
+    background-color: #FBFBFB;
     height: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 1.2rem;
     position: sticky;
+    border-radius: 40px;
     /* border-bottom: 10px solid #E20B17; */
     /* Either keep it as a border, or make it a border that appears on hover
     under items*/
@@ -45,7 +47,7 @@ ul li a:hover {
 
 nav > ul li a { 
     color: #484848;
-    font-weight: bold;
+    font-weight: light;
     padding-bottom: 10px;
     transition: all 400ms ease-in-out;
 }

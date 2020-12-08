@@ -4,17 +4,22 @@
     font-family: 'Exo 2', sans-serif;
     list-style: none;
     text-decoration: none;
-
-
-    
+ 
 } 
 
+
+.nav-links2 > img {
+    width: 50px;
+    height: 50px;
+
+
+}
 /* body {
     background-color: grey;
 } */
 
 .nav {
-    background-color: white;
+    background-color: #EDEDED;
     padding: 5px 0px 0px 0px;
     height: 60px;
     display: flex;

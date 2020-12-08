@@ -4,7 +4,9 @@
     display: -webkit-flex;
     display: flex;
     align-items:  center;
-    background: linear-gradient(to bottom, rgba(255, 254, 254, 0.5), rgba(129, 129, 129, 0.8));
+    background: linear-gradient(0deg, rgba(228,229,229,1) 0%, rgba(248,242,242,1) 56%);
+    
+    
     
 }
 
@@ -28,7 +30,8 @@
     margin-left: 13%;
     display: block;
     margin-left: auto;
-    margin-right: auto  
+    margin-right: auto;
+    
  
 }
 
@@ -45,7 +48,7 @@
     padding: 50px 10px 10px 10px;
     display: block;
     margin-left: auto;
-    margin-right: auto
-  
+    margin-right: auto;
+    filter: contrast(100%);
 }
 
