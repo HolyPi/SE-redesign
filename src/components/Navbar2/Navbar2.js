@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import './Navbar2.css'
-import slogo from '../../static/images/SC-render.png'
+import slogo from '../../static/images/smicon.png'
 
 export default function Navbar2() {
     return (
