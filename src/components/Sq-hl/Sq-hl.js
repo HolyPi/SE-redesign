@@ -1,20 +1,53 @@
 import React from 'react'
 import './Sq-hl.css'
-import { Link } from 'react-router-dom'
+import nr from '../../static/images/games/nr.jpg'
+import ff from '../../static/images/games/ffxvi.png'
+import khmom from '../../static/images/games/khmom.jpg'
+import dq from '../../static/images/games/dg.png'
 
 
-function Highlights(props) {
 
-    const { title, images } = props
+
+export default function Highlights() {
     return (
-      <div className="Hl">
-        <h1>
-          <h1>{title}</h1>
-        </h1>
-          <img src={`./${process.env.PUBLIC_URL}images/${images}`} width="300" height="300" alt="Hello" />
-        </div>
 
+            <section class="game-section">
+                <div className="games">
+                <div className="wrap">
+                <div className="game-img">
+                <img src={khmom}/>
+                </div>
+                <div className="game-n">
+                <h5>Kingdom Hearts: Melody of Memory</h5>
+                </div>
+                </div>
+                <div className="wrap">
+                <div className="game-img">
+                <img src={dq}/>
+                </div>
+                <div className="game-n">
+                <h5>Dragon Quest XI</h5>
+                </div>
+                </div>
+                <div className="wrap">
+                <div className="game-img">
+                <img src={ff}/>
+                </div>
+                <div className="game-n">
+                <h5>Final Fantasy XVI</h5>
+                </div>
+                </div>
+                <div className="wrap">
+                <div className="game-img">
+                <img src={nr}/>
+                </div>
+                <div className="game-n">
+                <h5>NieR Replicant ver.1.22474487139</h5>
+                </div>
+                </div>
+                </div>
+                </section>
+
+            
     )
-  }
-  
-  export default Highlights
+}

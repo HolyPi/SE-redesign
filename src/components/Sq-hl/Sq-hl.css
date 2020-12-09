@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Exo 2', sans-serif;
+}
+
+h2 {
+    font-size: 22px;
+    letter-spacing: 1px;
+    padding-top: 30px;
+}
+
+.game-section {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    align-items: top;
+    justify-content: center;
+}
+
+.wrap {
+    margin: 20px 40px 0 0;
+}
+.games {
+  padding: 10%;
+  display: flex;
+  
+
+}
+
+
+.game-img img {
+    width: 260px;
+    height: 300px;
+    mask-image: linear-gradient(rgba(255,255,255,1) 60%, rgba(255,255,255,0) 100%);
+
+}
+
+h5 {
+    padding-top: 30px;
+   
+}
