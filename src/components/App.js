@@ -6,6 +6,7 @@ import Footer from './Footer/Footer';
 import Navbar2 from './Navbar2/Navbar2';
 import Navbar from './Navbar/Navbar';
 import Hlheader from './Hlheader/Hlheader';
+import Highlights from './Sq-hl/Sq-hl'
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
       <Navbar />
       <Header/>
       <Hlheader />
+      <Highlights />
 
     </div>
     </Router>
